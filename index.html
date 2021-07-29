@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>AR Camera</title>
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+        <style>
+            body {
+                background-color:pink;
+            }
+            
+            model-viewer{
+                width: 400px;
+                height: 600px;
+                margin: 0 auto;
+            }
+
+        </style>
+    </head>
+    <body>
+        <model-viewer src="scene.gltf" camera-controls auto-rotate ar ios-src="Giant_Low_Poly_Tree.usdz"></model-viewer>
+    </body>
+</html>
